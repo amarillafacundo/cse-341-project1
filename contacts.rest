@@ -1,0 +1,12 @@
+### Get all contacts (local)
+GET http://localhost:3000/contacts
+
+### Get one contact by ID (local)
+GET http://localhost:3000/contacts/69b5d41ab33635e7649ceed6
+
+
+### Get all contacts (Render)
+GET https://project1-vsem.onrender.com/contacts
+
+### Get one contact by ID (Render)
+GET https://project1-vsem.onrender.com/contacts/69b5d41ab33635e7649ceed6
