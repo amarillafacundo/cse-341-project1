@@ -5,7 +5,7 @@ const doc = {
         title: 'Temples Api',
         description: 'Team project for week 2'
     },
-    host: 'localhost:8080',
+    host: 'localhost:3000',
     schemes: ['http', 'https']
 };
 
