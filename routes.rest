@@ -1,0 +1,31 @@
+### CREATE CONTACT
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{
+  "firstName": "New",
+  "lastName": "Person",
+  "email": "new@email.com",
+  "favoriteColor": "Yellow",
+  "birthday": "2001-01-01"
+}
+
+### UPDATE CONTACT
+
+### UPDATE CONTACT
+PUT http://localhost:3000/contacts/69b5d4e4be1b4f36812dbe9b
+Content-Type: application/json
+
+{
+  "firstName": "Pablo Updated",
+  "lastName": "Blasi",
+  "email": "updated@email.com",
+  "favoriteColor": "Red",
+  "birthday": "1983-09-16"
+}
+
+
+### DELETE CONTACT
+DELETE http://localhost:3000/contacts/69b5d4e4be1b4f36812dbe9b
+
+
