@@ -5,10 +5,9 @@
     "description": "Team project for week 2",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "project1-vsem.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http",
     "https"
   ],
   "paths": {
