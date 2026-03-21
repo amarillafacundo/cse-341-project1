@@ -1,5 +1,5 @@
 const swaggerUi = require('swagger-ui-express');
-const swagger = require('./swagger.json');
+const swaggerDocument = require('./swagger.json');
 
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -7,6 +7,8 @@ const bodyParser = require('body-parser');
 const mongodb = require('./data/database');
 const app = express();
 
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 const port = process.env.PORT || 3000;
 
